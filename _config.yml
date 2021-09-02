@@ -58,7 +58,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true # true, false (default)
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -105,7 +105,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Senior Bioinformatician & Vice Training Coordinator"
   location         : "Stockholm, Sweden"
-  email            : "some_email@emailing.com"
+  email            : #"some_email@emailing.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
