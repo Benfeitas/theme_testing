@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Rui Benfeitas, PhD1"
+title                    : "Rui Benfeitas, PhD"
 title_separator          : "-"
 subtitle                 : "Multi-omics Integration & Systems Biology" # site tagline that appears below site title in masthead
-name                     : "RB3"
-description              : "RB4"
+name                     : #"Multi-omics Integration & Systems BIology"
+description              : #"An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -101,7 +101,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Rui Benfeitas, PhD2"
+  name             : #"Rui Benfeitas, PhD2"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Senior Bioinformatician & Vice Training Coordinator"
   location         : "Stockholm, Sweden"
@@ -276,15 +276,22 @@ compress_html:
 
 
 # Defaults
-defaults:
-  # _posts
+# _pages
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+# defaults:
+#   # _posts
+#   - scope:
+#       path: ""
+#       type: posts
+#     values:
+#       layout: single
+#       author_profile: true
+#       read_time: true
+#       comments: # true
+#       share: true
+#       related: true
