@@ -154,7 +154,6 @@ include:
   - .htaccess
   - _pages
   - ["_pages"]
-  - _pages/teaching
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

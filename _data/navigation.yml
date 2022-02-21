@@ -1,13 +1,13 @@
 # main links
 main:
   - title: Teaching
-    url: pages/teaching
+    url: pages/teaching/
     permalink: /teaching/
   - title: Publications
-    url: pages/publications
+    url: pages/publications/
     permalink: /publications
   - title: About
-    url: pages/about
+    url: pages/about/
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
